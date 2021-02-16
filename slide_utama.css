@@ -1,0 +1,214 @@
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css";
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    width:100%;
+    z-index: 10;
+    opacity: 0.8;
+    top: 0;
+}
+
+.header {
+    margin-left: 50px;
+}
+
+.header-link ul{
+    margin-left: 800px;
+}
+
+.header-link li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px ;
+    font-size: 14px;
+}
+
+.header-link a {
+    text-decoration: none;
+    color: white;
+}
+.header-link a:hover {
+    color: rgb(46, 102, 221);
+    transition: .3s ease-out;
+}
+
+.menu {
+    margin: 0;
+    padding: 0 50px 0;
+}
+
+.menu a {
+    color: white;
+    font-size: 20px;
+}
+.menu a:hover{
+    color: rgb(46, 102, 221);
+    transition: .3s ease-in-out;  
+}
+
+.page {
+    height: 650px;
+    padding: 180px 180px ;
+    display: flex;
+    background-image: url(dark.png);
+    background-size: cover;
+    margin-bottom: 17px;
+}
+
+.page-one {
+    width: 250px;
+}
+
+.space  {
+    font-size: 15px;
+    color: white;
+    font-family: monospace;
+}
+
+.page-one h1 {
+    font-family: 'poppins', sans-serif;
+    color:rgb(221,19,19)
+}
+
+.page-one p {
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+}
+
+
+/* .btn {
+    background-color:red;
+    width: 180px;
+    height: 180px;
+    border-radius: 6px;
+    padding-right: 7;
+    margin: 0 17px ;
+}
+
+.btn a {
+    text-align: center;
+    color: rgb(12, 10, 10);
+    text-align: center;
+}
+
+.btn i {
+    text-align:center;
+} */
+
+.btn-link {
+    margin: 80px 42px;
+}
+
+.btn {
+    padding: 80px 60px;
+    margin-left: 24px;
+    border-radius: 7px;
+    background-color: rgb(240, 236, 236);
+}
+
+.btn {
+    font-size: 60px;
+    color: rgb(221,19,19);
+}
+
+.btn:hover {
+    padding: 6rem 4rem;
+    transition: .3s ease-in;
+    background-color: rgb(221, 19, 19);
+    color:white;
+}
+
+.page-two {
+    display: flex;
+    padding-left: 15px;
+}
+
+.icon {
+    margin: 7px;
+}
+.bit{
+    width:50%;
+    height:300px;
+    float: left;
+    background-color: white;
+}
+
+.bit-1 {
+    width: 80%;
+    height: 100px;
+    margin: 60px 75px 75px;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+}
+
+.bit-1 i {
+    margin-right: 12px;
+}
+
+.fut {
+    width:50%;
+    height:300px;
+    float: left;
+    background-color: rgb(46, 102, 221)
+}
+
+.fut-2 {
+    width: 80%;
+    height: 100px;
+    margin: 60px 75px 75px;
+    font-family: 'poppins',sans-serif;
+    font-size: 15px;
+}
+
+.fut-2 i {
+    margin-right: 12px;
+}
+
+.button {
+    margin-top: 50px;
+    float: right;
+}
+
+.btn-column {
+    background-color: rgb(46, 102, 221);
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 14px;
+}
+
+.column {
+    background-color: white;
+    color: rgb(46, 102, 221);
+}
+
+.style {
+    margin-top: 95px;
+}
+
+.btn-column:hover {
+    color: white;
+    transition: .3s ease-in;
+}
+
+.column:hover {
+    color: black;
+}
