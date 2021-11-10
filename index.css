@@ -2,6 +2,6 @@ body {
     padding: 2px;
 }
 
-p {
-    font-size: 12px;
+body:hover {
+    font-size: 13px;
 }
